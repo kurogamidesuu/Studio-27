@@ -1,5 +1,5 @@
 import { CSSProperties } from 'react';
-import { Slide, toast, ToastContainer } from 'react-toastify';
+import { Slide, toast } from 'react-toastify';
 
 const PaletteBox = ({ hex } : {
   hex: string,
@@ -35,19 +35,6 @@ const PaletteBox = ({ hex } : {
       onClick={() => copyColor()}
     >
       <span className="h-full w-full absolute left-1/2 -translate-x-1/2 text-[10px] bg-black/20 text-white flex items-center justify-center rounded opacity-0 group-hover:opacity-50 transition">{hex}</span>
-      <ToastContainer
-        position="top-center"
-        autoClose={2500}
-        limit={1}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick={false}
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        theme="light"
-        transition={Slide}
-        />
     </div>
   )
 }
