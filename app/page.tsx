@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-import { Box, CheckSquare, HeartHandshake, Lightbulb, Palette, PenTool, Zap } from "lucide-react";
+import { Box, CheckSquare, Feather, HeartHandshake, Lightbulb, Palette, PenTool, Zap } from "lucide-react";
 
 export default function Home() {
   const services = [
@@ -20,12 +20,12 @@ export default function Home() {
     comingSoon: false
   },
   {
-    name: 'Lumina',
-    description: 'A dedicated light installation for us. Every light here is a memory, a reason, or a moment where I fell in love with you.',
-    icon: Lightbulb,
-    url: '/atelier',
-    color: '#efdc60ff',
-    comingSoon: true
+    name: 'Muse',
+    description: 'Tell me your mood. I have trained this little intelligence to turn your feelings into poetry, using the vocabulary of our love.',
+    icon: Feather,
+    url: '/muse',
+    color: '#a855f7',
+    comingSoon: false
   },
   {
     name: 'Structure',

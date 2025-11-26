@@ -34,3 +34,9 @@ model Moment {
   fixed     Boolean  @default(false)
   createdAt DateTime @default(now())
 }
+
+model Poem {
+  id        Int      @id @default(autoincrement())
+  poem      String
+  createdAt DateTime @default(now())
+}
