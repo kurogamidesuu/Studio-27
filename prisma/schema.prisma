@@ -23,3 +23,14 @@ model Palette {
   updatedAt DateTime @updatedAt
   note      String?
 }
+
+// For Moments
+model Moment {
+  id        Int      @id @default(autoincrement())
+  title     String
+  subtitle  String?
+  dateLabel String
+  image     String
+  fixed     Boolean  @default(false)
+  createdAt DateTime @default(now())
+}

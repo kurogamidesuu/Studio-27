@@ -28,7 +28,7 @@ const PaletteBox = ({ hex } : {
 
   return (
     <div
-      className="w-12 h-50 rounded cursor-pointer border border-zinc-700 relative group transition "
+      className="w-11 md:w-12 h-40 md:h-50 rounded cursor-pointer border border-zinc-700 relative group transition "
       style={{
         background: hex
       }}

@@ -77,7 +77,7 @@ const SavePaletteModal = ({
         }}
       >
         <Fade in={open}>
-          <div className="absolute top-1/2 left-1/2 -translate-1/2 w-100 h-100 bg-zinc-900 text-gray-300 border-3 border-yellow-600 rounded-xl">
+          <div className="absolute top-1/2 left-1/2 -translate-1/2 w-75 md:w-100 h-100 bg-zinc-900 text-gray-300 border-3 border-yellow-600 rounded-xl">
             <div id="transition-modal-title" className="h-full relative">
               <form action={handleSave} className="h-full flex flex-col items-center justify-evenly">
                 <span className="absolute top-3 right-3 hover:text-red-400 transition background cursor-pointer">
