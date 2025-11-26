@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Feather, Home, Loader2, LucideHeart, LucideQuote, Sparkles, Trash } from "lucide-react";
+import { Feather, Home, Loader2, LucideHeart, LucideQuote, Sparkles } from "lucide-react";
 import Button from "@/components/Button";
 import { toast } from "react-toastify";
 import SavedPoemCard from "@/components/SavedPoemCard";

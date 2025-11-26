@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-import { Box, CheckSquare, Feather, HeartHandshake, Lightbulb, Palette, PenTool, Zap } from "lucide-react";
+import { Box, CheckSquare, Feather, HeartHandshake, Palette, PenTool, Zap } from "lucide-react";
 
 export default function Home() {
   const services = [

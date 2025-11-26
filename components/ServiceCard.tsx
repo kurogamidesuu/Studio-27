@@ -36,10 +36,18 @@ const ServiceCard = ({
         <p className="italic text-sm text-zinc-400 group-hover:text-zinc-300 transition-colors duration-300">{description}</p>
       </div>
       <div className="flex gap-2 items-center mt-auto">
-        <p className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-amber-400/80 text-sm">Open studio</p>
-        <span className="relative -left-20 group-hover:left-0 text-amber-400/60 group-hover:text-amber-400/90 transition-all duration-200">
-          <ArrowRightIcon />
-        </span>
+        {comingSoon ? (
+          <div className="text-sm text-amber-400/60">
+            Coming soon ...
+          </div>
+        ) : (
+          <>
+            <p className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-amber-400/80 text-sm">Open studio</p>
+            <span className="relative -left-20 group-hover:left-0 text-amber-400/60 group-hover:text-amber-400/90 transition-all duration-200">
+              <ArrowRightIcon />
+            </span>
+          </>
+        )}
       </div>
     </div>
   );
